@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ptbr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/login.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <section>
+      <div class="desktop-image">
+        <img src="/img/Group10.png" alt="Imagem de fundo" />
+      </div>
+      <div class="main-login">
+        <div class="desktop-layout">
+          <form id="loginForm" onsubmit="return validarFormulario(event)">
+            <a href="/index.html" class="logo">
+              <img src="/img/NetEase-logo.png" alt="Logo" />
+            </a>
+            <div class="span">
+              <p>Enter your email:</p>
+              <input id="email" placeholder="naibsubedar@idv.com" required />
+
+              <p>Password:</p>
+              <input type="password" id="senha" placeholder="Your password here" required />
+
+              <button type="submit">Log in</button>
+              <p class="create">
+                <a href="/signup.html">Create your account</a>
+              </p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Inclusão do arquivo JS -->
+    <script src="/login.js"></script>
+  </body>
+</html>
