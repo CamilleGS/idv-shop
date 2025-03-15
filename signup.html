@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/css/signup.css" />
-    <title>signup</title>
+    <title>Signup</title>
   </head>
   <body>
     <section>
@@ -13,23 +13,34 @@
       </div> 
 
       <div class="main-login">
-          <form id="loginForm" >
+          <form id="loginForm">
             <a href="/index.html" class="logo">
               <img src="/img/NetEase-logo.png" alt="Logo" />
             </a>
             <div class="span">
               <p>Enter your name:</p>
-              <input id="name" placeholder="naib subedar" required />
+              <input id="name" placeholder="Naib Subedar" required />
+              
               <p>Enter your email:</p>
-              <input id="email" placeholder="naibsubedar@idv.com" required />
+              <input id="email" type="email" placeholder="naibsubedar@idv.com" required />
+              
               <p>Password:</p>
               <input type="password" id="senha" placeholder="Your password here" required />
 
               <button type="submit">Sign up</button>
+              
               <p class="create">
-                <a href="/login.html">do you have an account? log in!</a>
+                <a href="/login.html">Do you have an account? Log in!</a>
               </p>
+
+              
             </div>
+            
+              <!-- Checkbox para aceitar os termos -->
+              <div class="checkbox-container" >
+                <input type="checkbox" id="lgpd" required />
+                <label for="lgpd">I accept the <a href="/terms.html" target="_blank">terms and conditions</a>.</label>
+              </div>
           </form>
       </div>
     </section>

@@ -128,7 +128,26 @@ form{
   display: none;
 }
 
+.checkbox-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 60px;
+  background-color: #cb0c1b;
+  border-radius: 0px 0px 20px 20px;
+  
+}
+input#lgpd{
+  width: 40px;
+  
+}
 
+
+.checkbox-container label a{
+  color: #ffa1a1;
+
+}
 
 @media only screen and (min-width: 480px) {
   .span {
@@ -165,9 +184,90 @@ form{
     height: 35px;
     margin-bottom: 15px;
   }
+  .checkbox-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 60px;
+    background-color: #cb0c1b;
+    border-radius: 0px 0px 20px 20px;
+    
+  }
+  input#lgpd{
+    width: 40px;
+  }
+  
+  
+  .checkbox-container label a{
+    color: #ffa1a1;
+  }
+  
 
 }
 
+@media only screen and (min-width: 800px) {
+  body{
+    font-size: 22px;
+  }
+  .span {
+    width: 430px;
+    height: 480px;
+    padding: 55px 50px 50px 60px;
+  }
+
+  input#name,input#senha, input#email  {
+    width: 100%;
+    height: 45px;
+    padding: 15px;
+  
+  }
+
+  input::placeholder {
+    font-size: 20px;
+    text-align: center;
+    font-family: essay, sans-serif;
+    color: #000;
+    opacity: 0.4;
+  }
+
+
+  .span p:not(p:last-child) {
+    color: black;
+  }
+  
+
+  button {
+    margin-top: 30px;
+    font-size: 30px;
+    width: 50%;
+    height: 45px;
+    margin-bottom: 25px;
+  }
+  .checkbox-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 70px;
+    background-color: #cb0c1b;
+    border-radius: 0px 0px 30px 30px;
+    
+  }
+  input#lgpd{
+    width: 50px;
+  }
+  
+  
+  .checkbox-container label a{
+    color: #ffa1a1;
+  }
+  
+  .create a{
+    font-size: 18px;
+  }
+
+}
 
 @media only screen and (min-width: 1480px) {
 
